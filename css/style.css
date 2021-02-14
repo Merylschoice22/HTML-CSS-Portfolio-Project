@@ -6,3 +6,21 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+/***** GENERAL *****/
+
+/***** NAVIGATION *****/
+
+/***** PROJECTS *****/
+
+main .kkcards .card:first-of-type {
+  border: 5px solid rgb(46, 139, 104);
+}
+
+main p {
+  color: rgb(46, 139, 104);
+  font-size: 20px;
+  text-align: center;
+}
+
+/***** FOOTER *****/

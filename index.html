@@ -6,17 +6,271 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>My Blog</title>
+    <title>Portfolio Project</title>
     <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- <link
       href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
       rel="stylesheet"
       type="text/css"
-    />
+    /> -->
+
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> -->
   </head>
   <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+    <!-- HEADER -->
+
+    <header>
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Kimberly Krieg</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CV</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+    </header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- MAIN -->
+    <main>
+      <div class="container mt-6">
+        <div class="row">
+          <div class="col-9">
+            <h1 class="m-4">Kimberly Krieg Portfolio</h1>
+            <p>
+              I'm an American living in Barcelona since 2010. I've been working
+              as a freelancer teaching English, giving tours in Barcelona, and
+              now I'm a junior developer.
+            </p>
+            <p>
+              This is my portfolio of my projects that I have done in Migracode
+              so far =)
+            </p>
+            <p>
+              Below you will 3 projects that were done for the course working
+              with HTML and CSS.
+            </p>
+            <p>Enjoy!</p>
+          </div>
+          <div class="col-3">
+            <img src="img/me.jpg" alt="crappy image" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <hr />
+      <div class="container m-4">
+        <div class="row">
+          <div class="col kkcards">
+            <div class="card" style="width: 20rem">
+              <img src="img/karma.png" class="card-img-top" alt="karma" />
+              <div class="card-body">
+                <h5 class="card-title">Karma Landing Page</h5>
+                <p class="card-text">
+                  This is a class project where we recreated a landing page from
+                  scratch using HTML and CSS. We implemented flexbox and media
+                  queries in order to make the webpage responsive.
+                </p>
+                <a
+                  href="https://merylschoice22.github.io/HTML-CSS-Coursework-Week2/"
+                  class="btn btn-primary"
+                  >Go somewhere</a
+                >
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">February 2021</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem">
+              <img src="img/zoo.png" class="card-img-top" alt="karma" />
+              <div class="card-body">
+                <h5 class="card-title">Zoo Project</h5>
+                <p class="card-text">
+                  Class project from the first week of HTML & CSS, practicing
+                  with structures, tags, and complex selectors.
+                </p>
+                <a
+                  href="https://merylschoice22.github.io/HTML-CSS-Challenges/zoo-css-challenge/"
+                  class="btn btn-primary"
+                  >View Project</a
+                >
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">February 2021</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem">
+              <img
+                src="img/thanksgiving.png"
+                class="card-img-top"
+                alt="karma"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Thanksgiving Dinner Planner</h5>
+                <p class="card-text">
+                  Simple webpage using HTML & CSS for the application process in
+                  Migracode. The theme was chosen because the holiday was coming
+                  up and the webpage would be useful both for presenting to
+                  friends to explain the festivities as well as for the host to
+                  use as a resource in order to do all the preparations.
+                </p>
+                <a
+                  href="https://merylschoice22.github.io/Thanksgiving-Dinner-Planner/"
+                  class="btn btn-primary"
+                  >View Project</a
+                >
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">View Project</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- PROJECTS -->
+
+    <!-- FOOTER -->
+
+    <footer>
+      <ul class="nav justify-content-center mt-5">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            aria-current="page"
+            href="https://www.linkedin.com/in/merylschoice22/"
+            >LinkedIn</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/Merylschoice22"
+            >GitHub</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com/sigamigabcn/"
+            >Instagram</a
+          >
+        </li>
+      </ul>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
